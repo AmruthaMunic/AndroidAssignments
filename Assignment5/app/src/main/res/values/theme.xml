@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" parent="@android:Theme">
+    </style>
+    <style name="TextAppearance.Theme" parent="@android:TextAppearance.Theme">
+        <item name="android:textColor">#ff0000</item>
+    </style>
+</resources>
