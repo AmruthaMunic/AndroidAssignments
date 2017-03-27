@@ -16,19 +16,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="The password you entered is incorrect.Did you forget your password?"
         android:background="@color/error"
         android:textColor="@color/tc"
         android:id="@+id/text"
-        android:visibility="invisible"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="The email address that you've entered doesn't match any account Sign up for an account"
-        android:background="@color/r"
-        android:textColor="@color/tc"
-        android:id="@+id/text1"
         android:visibility="invisible"
         />
     <EditText
@@ -38,7 +28,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:hint="Email Address or Phone number"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="55dp"
         android:background="@drawable/round"
         android:gravity="center"
         android:layout_marginLeft="20dp"
@@ -47,7 +37,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:id="@+id/editText1"
+        android:id="@+id/password"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:hint="Password"
@@ -83,11 +73,11 @@
         android:gravity="center"
        />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Forgotten password?.Help Center"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="92dp"/>
+        android:gravity="center"
+        />
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
